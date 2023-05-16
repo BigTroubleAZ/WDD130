@@ -1,7 +1,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-   /* background-color:#f1f5f8;*/
+    background-color:#f1f5f8;
 }
 #background {
     height: 725px;
@@ -15,20 +15,20 @@
 }
 .button-box{
     text-align: center;
-    background-color: #fcfbfb;  
+    background-color:#f1f5f8;
 }
 .book, .join{
-    background-color: #fcfbfb; 
+    background-color:#669BBC;
     text-decoration:none;
     color:black;
 }
 .book:hover, .join:hover{
     background-color: #fcfbfb; 
-    color: #d9c2a3;
+    color: black;
 }
 .msg{
-    background-color: #fcfbfb;  
-    color: black;
+    background-color:#003049;
+    color: white;
 }
 .icon {
     width: 80px;
@@ -40,10 +40,10 @@
     color: black;
 }     
 .msg h2{
-    color: black;   
+    color: white;   
 }
 .msg p{
-    color: black;    
+    color: white;    
 }
 main section{
     text-align: center;
@@ -58,7 +58,8 @@ nav a:hover {
     color: #d9c2a3;
 }      
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    
 }
 header {
     background-color:#003049;
@@ -71,12 +72,13 @@ footer{
 }
 footer a{
     color: white;  
-    text-decoration: underline; 
+    text-decoration: none; 
 }
 footer p {
     font-size: 1.2em;
+    
 } 
-footer a:hover{
+footer p a:hover{
     color: #d9c2a3;   
     text-decoration: underline; 
 }
