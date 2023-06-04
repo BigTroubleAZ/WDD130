@@ -16,26 +16,28 @@
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /*margin-top: -100px; */
+    /*margin-top: -100px;  /* Extra */
 }
 
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
-    /*z-index: -1;*/
+    /*z-index: -1;  /* Extra */
+    
 }
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    /*margin-top: 100px;*/
+    /*margin-top: 100px;/* Extra */
 }                         
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    color: white;
+    color: #ffffff;
 }
 #hero-img {
     width: 100%;
+
 }
 .button-box{
     text-align: center;
@@ -119,9 +121,11 @@ h2{
     margin: 0;
 }
 header {
+    /*background-color:rgba(20,30,13, .3);*/
     background-color:#003049;
     display: grid;
     grid-template-columns: 150px auto;
+
 }     
 
 nav {
@@ -236,6 +240,7 @@ h4{
     }
     #background {
         display: none;
+        height: 725px
     }
     .mountains, .msg {
         width: 80%;
