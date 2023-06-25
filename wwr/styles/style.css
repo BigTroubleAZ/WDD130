@@ -194,13 +194,13 @@ h4{
 .river-grid{
     display: grid;
     grid-template-columns: repeat(10, 160px);
-    grid-template-rows: repeat(14, 160px);
+    grid-template-rows: repeat(21, 160px);
 } 
 .river-az{
     width: 100%;
     grid-column: 1/7;
-    grid-row: 1/3;
-    
+    grid-row: 2/4; 
+
 }
 .river-az-msg{
     background-color:#003049;
@@ -208,13 +208,12 @@ h4{
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/11;
-    grid-row: 2/6;
-
+    grid-row: 3/7;
 }
 .river-ut{
     width: 100%;
     grid-column: 5/11;
-    grid-row: 7/10;
+    grid-row: 9/12;
 }
 .river-ut-msg{
     background-color:#003049;
@@ -222,12 +221,12 @@ h4{
     line-height: 1.5em;
     padding: 35px;
     grid-column: 1/6;
-    grid-row: 8/12;
+    grid-row: 10/14;
 }
 .river-id{
     width: 100%;
     grid-column: 1/7;
-    grid-row: 13/20;
+    grid-row: 16/21;
 }
 .river-id-msg{
     background-color:#003049;
@@ -235,7 +234,7 @@ h4{
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/11;
-    grid-row: 14/18;
+    grid-row: 17/21;
 }
 
 /*
