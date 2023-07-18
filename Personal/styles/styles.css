@@ -1,0 +1,57 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color:#f1f5f8;
+}
+header {
+    background-color:#396E94;
+    display: grid;
+    grid-template-columns: 150px auto;
+}     
+nav {
+    display: flex;
+    justify-content: space-around;
+}        
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration:none;
+    padding: 30px
+}
+nav a:hover {
+    background-color: #B1B6A6;
+    color: black;
+}  
+.logo {
+    width: 280px;
+}   
+#ward-img {
+    width: 100%;
+}
+#background {
+    height: 725px;
+    background-color:#819595;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}  
+footer{
+    background-color:#396E94;
+    color: white;
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 25px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: white;  
+    text-decoration: none; 
+}
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover{
+    color: #d9c2a3;   
+    text-decoration: underline; 
+}
