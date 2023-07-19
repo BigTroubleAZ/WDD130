@@ -33,6 +33,10 @@ nav a:hover {
     width: 100%;
 }
 
+p{
+    font-size: 1.5em; 
+}
+
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 160px);
@@ -147,6 +151,89 @@ body {
     padding: 0;
 }
 
+.rs-card{
+    margin: 20px;
+    grid-column: 0/3;
+    grid-row: 1;
+    text-align: center;
+}
+
+.rs-card_txt{
+    margin: 20px;
+    grid-column: 5/10;
+    grid-row: 1;
+    text-align: center;
+}
+
+.eq-card{
+    margin: 20px;
+    grid-column: 0/3;
+    grid-row: 2;
+    text-align: center;
+}
+
+.eq-card_txt{
+    margin: 20px;
+    grid-column:  5/10;
+    grid-row: 2;
+    text-align: center;
+}
+
+.yw-card{
+    margin: 20px;
+    grid-column: 0/3;
+    grid-row: 3;
+    text-align: center;
+}
+
+.yw-card_txt{
+    margin: 20px;
+    grid-column:  5/10;
+    grid-row: 3;
+    text-align: center;
+}
+
+.ym-card{
+    margin: 20px;
+    grid-column: 0/3;
+    grid-row: 4;
+    text-align: center;
+}
+
+.ym-card_txt{
+    margin: 20px;
+    grid-column:  5/10;
+    grid-row: 4;
+    text-align: center;
+}
+
+.ms-card{
+    margin: 20px;
+    grid-column: 0/3;
+    grid-row: 5;
+    text-align: center;
+}
+
+.ms-card_txt{
+    margin: 20px;
+    grid-column:  5/10;
+    grid-row: 5;
+    text-align: center;
+}
+
+.pm-card{
+    margin: 20px;
+    grid-column: 0/3;
+    grid-row: 6;
+    text-align: center;
+}
+
+.pm-card_txt{
+    margin: 20px;
+    grid-column: 5/10;
+    grid-row: 6;
+    text-align: center;
+}
 footer{
     background-color:#396E94;
     color: white;
