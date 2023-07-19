@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato|Courgette');
 
 #content {
     max-width: 1600px;
@@ -139,14 +139,14 @@ h2{
 
 .msg h2{
     color: white;  
-    font-family: Roboto,Helvetica, sans-serif;
+    font-family: Lato,Helvetica, sans-serif;
 }
 
 
 body {
     background-color: #fcfbfb;
     font-size: 15px;
-    font-family: Roboto,Helvetica, sans-serif;
+    font-family: Lato,Helvetica, sans-serif;
     margin: 0 auto;
     padding: 0;
 }
