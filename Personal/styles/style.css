@@ -33,17 +33,14 @@ nav a:hover {
     width: 100%;
 }
 
-
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 160px);
     grid-template-rows: repeat(10, auto);
-
 }  
 
 .home-msg{
     text-align: center;
-
 }
 
 .sacrament_program {
@@ -66,7 +63,6 @@ nav a:hover {
     grid-row: 3;
     font-size: 2em;
 }
-
 
 .resource-grid{
     display: grid;
